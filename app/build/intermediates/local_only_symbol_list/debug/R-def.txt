@@ -1,0 +1,29 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable money
+id btFalar
+id edtConta
+id edtPessoas
+id floatingActionButton
+id imageView
+id textView
+id tvShare
+id tvShareExt
+id valorFinal
+layout activity_main
+layout activity_share2
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Theme.ConstraintLayout
+xml backup_rules
+xml data_extraction_rules

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#74ff73"
-    android:backgroundTint="#8BC34A"
+    android:backgroundTint="#F3F8EC"
     tools:context=".MainActivity">
 
 
@@ -23,8 +23,8 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="148dp"
-        android:layout_height="49dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="60dp"
         android:gravity="center"
         android:text="Bora Rachar?"
@@ -33,6 +33,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent" />
+
 
     <Button
         android:id="@+id/btFalar"
@@ -47,7 +48,7 @@
         app:layout_constraintHorizontal_bias="0.539"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edtPessoas"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.125" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/floatingActionButton"
@@ -64,6 +65,7 @@
         app:layout_constraintStart_toEndOf="@+id/btFalar"
         app:layout_constraintTop_toBottomOf="@+id/edtPessoas"
         app:layout_constraintVertical_bias="0.0"
+        app:backgroundTint="#03A090"
         app:srcCompat="?attr/actionModeShareDrawable" />
 
     <EditText
@@ -71,6 +73,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:minHeight="48dp"
         android:gravity="center"
         android:hint="Insira o valor da conta"
         android:inputType="number"
@@ -89,8 +92,9 @@
         android:layout_marginEnd="101dp"
         android:ems="10"
         android:gravity="center"
-        android:hint="numero de pessoas"
+        android:hint="número de pessoas"
         android:inputType="number"
+        android:minHeight="48dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -100,21 +104,18 @@
 
     <TextView
         android:id="@+id/valorFinal"
-        android:layout_width="111dp"
-        android:layout_height="57dp"
-        android:layout_marginStart="175dp"
-        android:layout_marginTop="61dp"
-        android:layout_marginEnd="178dp"
-        android:textStyle="bold"
-        android:layout_marginBottom="237dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:gravity="center"
-        android:textSize="18sp"
         android:text="R$0.00"
+        android:textSize="18sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.471"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edtPessoas"
         app:layout_constraintVertical_bias="0.421" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

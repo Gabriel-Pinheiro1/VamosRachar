@@ -8,7 +8,7 @@ import android.widget.TextView
 class ShareActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_share2)
+        setContentView(R.layout.activity_main)
 
         val innerText : TextView = findViewById(R.id.tvShare)
         val paramTela = intent.extras?.getString("nome")

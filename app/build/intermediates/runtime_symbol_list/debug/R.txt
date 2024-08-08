@@ -1270,6 +1270,7 @@ int attr yearTodayStyle 0x7f0304a9
 int bool abc_action_bar_embed_tabs 0x7f040000
 int bool abc_config_actionMenuItemAllCaps 0x7f040001
 int bool mtrl_btn_textappearance_all_caps 0x7f040002
+int color TextBtSpeak 0x7f050287
 int color abc_background_cache_hint_selector_material_dark 0x7f050000
 int color abc_background_cache_hint_selector_material_light 0x7f050001
 int color abc_btn_colored_borderless_text_material 0x7f050002
@@ -1299,6 +1300,7 @@ int color accent_material_dark 0x7f050019
 int color accent_material_light 0x7f05001a
 int color androidx_core_ripple_material_light 0x7f05001b
 int color androidx_core_secondary_text_default_material_light 0x7f05001c
+int color background 0x7f050284
 int color background_floating_material_dark 0x7f05001d
 int color background_floating_material_light 0x7f05001e
 int color background_material_dark 0x7f05001f
@@ -1903,6 +1905,8 @@ int color secondary_text_default_material_dark 0x7f050275
 int color secondary_text_default_material_light 0x7f050276
 int color secondary_text_disabled_material_dark 0x7f050277
 int color secondary_text_disabled_material_light 0x7f050278
+int color shareButton 0x7f050285
+int color speakButton 0x7f050286
 int color switch_thumb_disabled_material_dark 0x7f050279
 int color switch_thumb_disabled_material_light 0x7f05027a
 int color switch_thumb_material_dark 0x7f05027b
@@ -3411,7 +3415,7 @@ int layout abc_search_view 0x7f0b0019
 int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
 int layout activity_main 0x7f0b001c
-int layout activity_share2 0x7f0b001d
+int layout activity_share 0x7f0b006b
 int layout custom_dialog 0x7f0b001e
 int layout design_bottom_navigation_item 0x7f0b001f
 int layout design_bottom_sheet_dialog 0x7f0b0020

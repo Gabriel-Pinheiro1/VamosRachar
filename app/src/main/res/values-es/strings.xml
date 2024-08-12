@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Constraint Layout</string>
+    <string name="title">compartamos?</string>
+    <string name="txtConta">Ingrese el monto de la factura</string>
+    <string name="txtPessoas">Numero de personas</string>
+    <string name="txtFalar">Hablar</string>
+    <string name="txtValor">€0.00</string>
+</resources>

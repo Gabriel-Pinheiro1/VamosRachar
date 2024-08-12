@@ -12,6 +12,11 @@
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">Constraint Layout</string>
+    <string name="title">Bora rachar?</string>
+    <string name="txtConta">Insira o valor da conta</string>
+    <string name="txtFalar">Falar</string>
+    <string name="txtPessoas">Número de pessoas</string>
+    <string name="txtValor">R$0.00</string>
     <style name="Theme.ConstraintLayout" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         
         <item name="colorPrimary">@color/purple_500</item>

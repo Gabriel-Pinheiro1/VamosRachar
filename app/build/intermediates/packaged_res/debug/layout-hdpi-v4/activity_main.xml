@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:backgroundTint="@color/background"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="258dp"
+        android:layout_height="228dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/money"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.619" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="335dp"
+        android:layout_height="129dp"
+        android:layout_marginBottom="60dp"
+        android:gravity="center"
+        android:text="@string/title"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toTopOf="@+id/edtConta"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <Button
+        android:id="@+id/btFalar"
+        android:layout_width="181dp"
+        android:layout_height="137dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="200dp"
+        android:onClick="clickFalar"
+        android:text="@string/txtFalar"
+        android:textColor="@color/TextBtSpeak"
+        android:textSize="30sp"
+        app:backgroundTint="@color/speakButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/floatingActionButton"
+        app:layout_constraintHorizontal_bias="0.539"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtPessoas"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="155dp"
+        android:layout_height="137dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="80dp"
+        android:clickable="true"
+        app:maxImageSize="70dp"
+        android:padding="0dp"
+        android:importantForAccessibility="no"
+        android:onClick="compartilharValor"
+        android:textSize="30sp"
+        app:backgroundTint="@color/shareButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btFalar"
+        app:layout_constraintTop_toBottomOf="@+id/edtPessoas"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="?attr/actionModeShareDrawable" />
+
+    <EditText
+        android:id="@+id/edtConta"
+        android:layout_width="308dp"
+        android:layout_height="142dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/txtConta"
+        android:inputType="number"
+        android:minHeight="25sp"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.427" />
+
+    <EditText
+        android:id="@+id/edtPessoas"
+        android:layout_width="309dp"
+        android:layout_height="158dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="101dp"
+        android:ems="10"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:hint="@string/txtPessoas"
+        android:inputType="number"
+        android:minHeight="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.592"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtConta"
+        app:layout_constraintVertical_bias="0.001" />
+
+    <TextView
+        android:id="@+id/valorFinal"
+        android:layout_width="157dp"
+        android:layout_height="125dp"
+        android:gravity="center"
+        android:text="@string/txtValor"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtPessoas"
+        app:layout_constraintVertical_bias="0.653" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

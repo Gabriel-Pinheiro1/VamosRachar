@@ -28,6 +28,11 @@ layout activity_share
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
+string title
+string txtConta
+string txtFalar
+string txtPessoas
+string txtValor
 style Theme.ConstraintLayout
 xml backup_rules
 xml data_extraction_rules

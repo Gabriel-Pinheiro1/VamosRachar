@@ -4,6 +4,10 @@
         "source": "C:\\Users\\joaog\\StudioProjects\\AlcoolOuGasolina2024\\.gradle\\daemon\\8.2\\com.example.constraintlayout.app-main-30:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
+        "merged": "com.example.constraintlayout.app-merged_res-28:/layout-hdpi_activity_main.xml.flat",
+        "source": "com.example.constraintlayout.app-main-30:/layout-hdpi/activity_main.xml"
+    },
+    {
         "merged": "C:\\Users\\joaog\\StudioProjects\\AlcoolOuGasolina2024\\.gradle\\daemon\\8.2\\com.example.constraintlayout.app-merged_res-28:\\mipmap-anydpi-v33_ic_launcher.xml.flat",
         "source": "C:\\Users\\joaog\\StudioProjects\\AlcoolOuGasolina2024\\.gradle\\daemon\\8.2\\com.example.constraintlayout.app-main-30:\\mipmap-anydpi-v33\\ic_launcher.xml"
     },
@@ -22,6 +26,10 @@
     {
         "merged": "C:\\Users\\joaog\\StudioProjects\\AlcoolOuGasolina2024\\.gradle\\daemon\\8.2\\com.example.constraintlayout.app-merged_res-28:\\drawable_money.png.flat",
         "source": "C:\\Users\\joaog\\StudioProjects\\AlcoolOuGasolina2024\\.gradle\\daemon\\8.2\\com.example.constraintlayout.app-main-30:\\drawable\\money.png"
+    },
+    {
+        "merged": "com.example.constraintlayout.app-merged_res-28:/layout-xhdpi_activity_main.xml.flat",
+        "source": "com.example.constraintlayout.app-main-30:/layout-xhdpi/activity_main.xml"
     },
     {
         "merged": "C:\\Users\\joaog\\StudioProjects\\AlcoolOuGasolina2024\\.gradle\\daemon\\8.2\\com.example.constraintlayout.app-merged_res-28:\\layout_activity_main.xml.flat",
@@ -82,10 +90,6 @@
     {
         "merged": "C:\\Users\\joaog\\StudioProjects\\AlcoolOuGasolina2024\\.gradle\\daemon\\8.2\\com.example.constraintlayout.app-merged_res-28:\\mipmap-hdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\joaog\\StudioProjects\\AlcoolOuGasolina2024\\.gradle\\daemon\\8.2\\com.example.constraintlayout.app-main-30:\\mipmap-hdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "com.example.constraintlayout.app-merged_res-28:/layout-land_activity_main.xml.flat",
-        "source": "com.example.constraintlayout.app-main-30:/layout-land/activity_main.xml"
     },
     {
         "merged": "C:\\Users\\joaog\\StudioProjects\\AlcoolOuGasolina2024\\.gradle\\daemon\\8.2\\com.example.constraintlayout.app-merged_res-28:\\layout-land_activity_main.xml.flat",

@@ -3651,6 +3651,11 @@ int string searchview_navigation_content_description 0x7f0f0097
 int string side_sheet_accessibility_pane_title 0x7f0f0098
 int string side_sheet_behavior 0x7f0f0099
 int string status_bar_notification_info_overflow 0x7f0f009a
+int string title 0x7f0f009b
+int string txtConta 0x7f0f009c
+int string txtFalar 0x7f0f009d
+int string txtPessoas 0x7f0f009e
+int string txtValor 0x7f0f009f
 int style AlertDialog_AppCompat 0x7f100000
 int style AlertDialog_AppCompat_Light 0x7f100001
 int style Animation_AppCompat_Dialog 0x7f100002

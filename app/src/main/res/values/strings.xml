@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Constraint Layout</string>
+    <string name="title">Bora rachar?</string>
+    <string name="txtConta">Insira o valor da conta</string>
+    <string name="txtPessoas">Número de pessoas</string>
+    <string name="txtFalar">Falar</string>
+    <string name="txtValor">R$0.00</string>
 </resources>
